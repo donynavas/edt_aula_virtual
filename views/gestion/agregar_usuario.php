@@ -27,6 +27,25 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+      <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi Proyecto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-success" href="../dashboard_admin.php">Volver al Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container mt-5">
         <h1>Agregar Usuario</h1>
         <form method="POST" action="agregar_usuario.php">
@@ -52,8 +71,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
             <button type="submit" class="btn btn-primary">Agregar Usuario</button>
         </form>
-
-        <a href="gestion_usuarios.php" class="btn btn-secondary mt-3">Volver a Gestión de Usuarios</a>
     </div>
 
     <!-- Bootstrap JS -->
