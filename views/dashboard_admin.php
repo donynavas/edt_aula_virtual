@@ -140,7 +140,7 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] !== 'Administrador') {
 
         .sidebar a {
             padding: 15px;
-            font-size: 18px;
+            font-size: 15px;
             color: #fff;
             display: block;
             text-decoration: none;
@@ -221,7 +221,7 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] !== 'Administrador') {
         <a href="#matriculasSubmenu" data-bs-toggle="collapse" class="dropdown-toggle"><i class="fas fa-clipboard-list"></i> Gestión de Matrículas</a>
         <ul class="collapse list-unstyled" id="matriculasSubmenu">
             <li><a href="crear_matricula.php">Crear Matrícula</a></li>
-            <li><a href="listar_matriculas.php">Listar Matrículas</a></li>
+          
         </ul>
         <a href="#cursosSubmenu" data-bs-toggle="collapse" class="dropdown-toggle"><i class="fas fa-graduation-cap"></i> Gestión de Cursos</a>
         <ul class="collapse list-unstyled" id="cursosSubmenu">
@@ -242,20 +242,19 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] !== 'Administrador') {
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
+</gestion/html>
 
            
           
         </ul>
         <a href="#librosSubmenu" data-bs-toggle="collapse" class="dropdown-toggle"><i class="fas fa-book"></i> Gestión de Libros</a>
         <ul class="collapse list-unstyled" id="librosSubmenu">
-            <li><a href="crear_libro.php">Crear Libro</a></li>
-            <li><a href="listar_libros.php">Listar Libros</a></li>
-            <li><a href="eliminar_libro.php">Eliminar Libro</a></li>
+            <li><a href="gestion/gestion_libros.php">Crear Libro</a></li>
+         
         </ul>
         <a href="#matriculasSubmenu" data-bs-toggle="collapse" class="dropdown-toggle"><i class="fas fa-clipboard-list"></i> Gestión de Matrículas</a>
         <ul class="collapse list-unstyled" id="matriculasSubmenu">
-            <li><a href="crear_matricula.php">Crear Matrícula</a></li>
+            <li><a href="gestion/gestion_matriculas.php">Crear Matrícula</a></li>
             <li><a href="listar_matriculas.php">Listar Matrículas</a></li>
         </ul>
         <a href="#cursosSubmenu" data-bs-toggle="collapse" class="dropdown-toggle"><i class="fas fa-graduation-cap"></i> Gestión de Cursos</a>
@@ -264,7 +263,7 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] !== 'Administrador') {
             <li><a href="listar_cursos.php">Listar Cursos</a></li>
         </ul>
         <a href="gestionar_reportes.php"><i class="fas fa-chart-line"></i> Reportes</a>
-        <a href="../logout.php"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+        <a href="logout.php"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
     </div>
 
     <!-- Content Area -->
