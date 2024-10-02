@@ -109,19 +109,17 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] !== 'Profesor') {
         <a href="#cursosSubmenu" data-bs-toggle="collapse" class="dropdown-toggle"><i class="fas fa-book"></i> Cursos</a>
         <ul class="collapse list-unstyled" id="cursosSubmenu">
             <li>
-                <a href="crear_curso.php">Crear Curso</a>
+                <a href="gestion/gestion_cursos.php">Crear Curso</a>
             </li>
             <li>
-                <a href="listar_cursos.php">Listar Cursos</a>
-            </li>
+                 </li>
             <li>
-                <a href="eliminar_curso.php">Eliminar Curso</a>
-            </li>
+               </li>
         </ul>
         <a href="#actividadesSubmenu" data-bs-toggle="collapse" class="dropdown-toggle"><i class="fas fa-tasks"></i> Actividades</a>
         <ul class="collapse list-unstyled" id="actividadesSubmenu">
             <li>
-                <a href="crear_actividad.php">Crear Actividad</a>
+                <a href="gestion/gestion_actividades.php">Crear Actividad</a>
             </li>
             <li>
                 <a href="listar_actividades.php">Listar Actividades</a>

@@ -1,4 +1,5 @@
 <?php
+
 include '../../config/db.php'; // Asegúrate de tener la conexión a la base de datos
 
 // Obtener el ID del curso
@@ -26,11 +27,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Crear Actividad</title>
-    <link rel="stylesheet" href="path/to/bootstrap.css">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <h1>Crear Actividad</h1>
+        <h1>CREAR ACTIVIDAD</h1>
         <form method="POST">
             <div class="form-group">
                 <label for="nombre">Nombre de la Actividad</label>
